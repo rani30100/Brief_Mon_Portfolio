@@ -1,0 +1,494 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/** police texte **/
+@font-face {
+    font-family: titretransparent;
+    src: url(./Anton-Regular.ttf);
+    font-family: titreh2;
+    src: url(./SourceSerifPro-Bold.ttf);
+}
+
+/** police texte **/
+
+
+/******************************Mes Pages*********************************/
+/************************************************************************/
+
+.page1 {
+    display: flex;
+    height: 600px;
+    background-image: linear-gradient(to bottom,
+            rgba(189, 187, 179, 0.253),
+            rgba(255, 255, 255, 0.363)), url(./image/ordinateur-ecran-code-binaire_1308-115006.webp);
+    background-position: center;
+    background-size: contain;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.363)
+}
+
+.columns {
+    display: flex;
+    display: list-item;
+    column-count: 3;
+    border-spacing: -10px;
+    text-align: center;
+}
+
+
+
+.page2 {
+    display: block;
+
+    background-image: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.493),
+            rgba(201, 200, 196, 0.137));
+height: fit-content;
+}
+
+.page3 {
+    display: block;
+    background-image: linear-gradient(to bottom,
+            rgba(201, 200, 196, 0.137),
+            rgba(255, 255, 255, 0.363));
+    height: fit-content;
+}
+
+.page4 {
+    display: block;
+    background-color: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.363),
+            rgba(201, 200, 196, 0.137));
+    height: fit-content;
+}
+
+.page5 {
+    display: block;
+    background-image: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.493),
+            white);
+    height: fit-content;
+}
+
+.page6 {
+    display: block;
+    background-image: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.493),
+            rgba(169, 52, 199, 0.24));
+    height: fit-content
+}
+
+/*---------------------------------------------------------------------*/
+/** P1-->Je suis rani **/
+
+.page1_info {
+    color: black;
+    text-decoration: bold;
+    display: block;
+    text-align: left;
+    margin: auto;
+}
+
+
+
+
+
+
+/*---------------------------------------------------------------------*/
+/** H2-->qui suije, portfolio, services, a propos, contact**/
+
+
+h2 {
+    position: absolute;
+    font-family: titreh2;
+    z-index: 0;
+    opacity: 0.23;
+    color: brown;
+    letter-spacing: 8px;
+    font-size: 70px;
+
+
+}
+
+.h2 {
+    display: flex;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+h2.h2 {
+    margin-top: 15px;
+}
+
+
+/*---------------------------------------------------------------------*/
+/****************************H3-->Presentation, travaux etc*****************/
+h3 {
+
+    font-family: titreh2;
+    font-size: 35px;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+
+hr {
+    margin-top: -10px;
+    margin-bottom: 70px;
+}
+
+@media screen and (min-width:360px) {
+    .list_button {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+    }
+
+
+}
+
+
+
+.bloc {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+/*---------------------------------------------------------------------*/
+/*******************************Page2*****************************************************************************/
+
+
+.bloc_presentation {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texte_présentation {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+/*---------------------------------------------------------------------*/
+/*******************************Page3*****************************************************************************/
+
+
+
+/***ca s'est LE RDERRADJ**/
+a>span {
+    font-size: 25px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+/*---------------------------------------------------------------------*/
+
+/*************************************Spécifités style*******************************************************************************/
+
+span {
+    font-weight: bold;
+}
+
+
+hr {
+    width: 50%;
+    margin-top: 0;
+
+}
+
+.droite {
+    background-color: rgba(255, 255, 255, 0.363);
+}
+
+
+
+
+.gauche {
+    background-color: rgba(255, 255, 255, 0.363);
+
+}
+
+.gauche>a {
+
+    color: rgb(41, 138, 125);
+
+}
+
+.droite>a {
+    margin-right: 0;
+    margin-left: 50px;
+    color: rgb(41, 138, 125);
+
+}
+
+.bouton a {
+    display: inline-block;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    background: url(./image/boutonnoir.png) no-repeat;
+    color: white;
+    text-decoration: none;
+    align-content: row;
+}
+
+.bouton a:hover {
+    background: url(./image/boutonnoir2.png) no-repeat;
+}
+
+img {
+    width: 60%;
+}
+
+
+
+.images {
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 40px;
+    margin-left: 20px;
+
+
+}
+
+.blocdehaut {
+    margin-top: 200px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+
+}
+
+.blocdebas {
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    margin-bottom: 120px;
+}
+
+
+
+
+
+.blocdehaut>img {
+    max-width: 10%;
+    max-height: 130px;
+}
+
+.blocdebas>img {
+    max-width: 10%;
+    max-height: 130px;
+}
+
+.images_page4 {
+    justify-content: center;
+   
+
+}
+
+.p4 {
+    min-width: none;
+    height: 40px;
+
+}
+
+ul.list_button_travaux>li {
+    display: inline-block;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    padding: 20px;
+}
+
+ul.list_button_travaux>li:hover {
+    background-color: rgba(44, 44, 42, 0.253);
+    border-radius: 10px;
+}
+
+ul.list_button_travaux {
+    display: flex;
+    margin-top: 0;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (min-width:360px) {
+    .list_button_travaux {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .list_button_travaux {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+}
+
+
+
+
+
+ul li {
+    margin-left: 20px;
+}
+
+.list_button {
+    text-decoration: none;
+}
+
+:any-link {
+    text-decoration: none;
+}
+
+.page4>h3 {
+    width: 120px
+}
+
+li {}
+
+.p5 {
+    font-size: 30px;
+}
+
+.p6 {
+    font-size: 40px;
+
+}
+
+.form {
+    text-align: center;
+
+}
+
+.form_name {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 15px;
+    background-color: rgba(137, 43, 226, 0.226);
+    border: solid black 3px;
+}
+
+.mail {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 15px;
+    background-color: rgba(137, 43, 226, 0.226);
+    border: solid black 3px;
+}
+
+.form_text {
+    width: 50%;
+    height: 160px;
+    background-color: rgba(137, 43, 226, 0.226);
+    border: solid black 3px;
+}
+
+.mecontacter {
+    box-shadow: 2px 2px 10px 4px;
+    padding: 6px;
+    margin-top: 20px;
+}
+
+
+
+/***page6**/
+.Box_bar_competence {
+    margin-top: 24px;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    
+    justify-content: center;
+}
+
+.Bar_competence_html {
+    border: 2px black;
+    border-radius: 5px;
+    background: linear-gradient(to right, #f1322b 95%, #e2e2e2 20%);
+}
+
+.fa-brands.fa-html5 {
+    margin-left: 5px;
+    color: white;
+}
+
+
+.Bar_competence_css {
+    border: 2px black;
+    border-radius: 5px;
+    background: linear-gradient(to right, #235988 80%, #e2e2e2 20%);
+}
+
+.fa-brands.fa-css3 {
+    margin-left: 5px;
+    color: white;
+}
+
+
+.Bar_competence_javascript {
+    border: 2px black;
+    border-radius: 5px;
+    background: linear-gradient(to right, #e85f80 70%, #e2e2e2 20%);
+}
+
+.fa-brands.fa-js {
+    margin-left: 5px;
+    color: white;
+}
+
+.Bar_competence_php {
+    border: 2px black;
+    border-radius: 5px;
+    background: linear-gradient(to right, #5399c8 30%, #e2e2e2 20%);
+}
+
+.fa-brands.fa-php {
+    margin-left: 5px;
+    color: white;
+}
+
+.image_p6{
+    display: flex;
+    float: left;
+}
+
+.image_p6{
+    width :50%;
+  
+}
+.page6_blocdroit{
+    width: 50%;
+
+}
+
+.Container_competence >img{
+    width: 30%;
+}
+
